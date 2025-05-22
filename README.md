@@ -84,7 +84,7 @@ JWT-based authentication (if implemented)
 
 Role-based authorization for protected routes
 
-Basic EJS frontend mainly for quick testing and debugging — frontend not fully implemented
+Basic EJS frontend templates — frontend not fully implemented
 
 Author
 Ivan Copic — Full-Stack Developer | Software Engineer
