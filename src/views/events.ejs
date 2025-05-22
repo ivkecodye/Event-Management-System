@@ -1,0 +1,15 @@
+<h2>All Events</h2>
+<ul>
+  <% events.forEach(event => { %>
+    <li style="margin-bottom: 1rem;">
+      <strong><%= event.title %></strong><br>
+      <small><%= event.date.toDateString() %> - <%= event.location %></small><br>
+      <p><%= event.description %></p>
+      <form method="POST" action="/api/registrations">
+        <input type="hidden" name="eventId" value="<%= event.id %>">
+        <input type="hidden" name="userId" value="1"><!-- Replace with real user ID -->
+        <button type="submit">Register</button>
+      </form>
+    </li>
+  <% }) %>
+</ul>
