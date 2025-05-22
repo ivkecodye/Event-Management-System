@@ -86,4 +86,8 @@ Role-based authorization for protected routes
 
 Basic EJS frontend mainly for quick testing and debugging — frontend not fully implemented
 
+Author
+Ivan Copic — Full-Stack Developer | Software Engineer
+https://www.linkedin.com/in/ivancopic/
+
 
