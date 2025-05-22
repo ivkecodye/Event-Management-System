@@ -60,4 +60,30 @@ The project focuses on backend development concepts including user authenticatio
 6. npm run dev
 
 
+API Endpoints Overview
+POST /api/auth/register - Register new user
+
+POST /api/auth/login - User login
+
+GET /api/events - List all events
+
+POST /api/events - Create event (admin only)
+
+PUT /api/events/:id - Update event (admin only)
+
+DELETE /api/events/:id - Delete event (admin only)
+
+POST /api/registrations - Register for event
+
+GET /api/users - List users (admin only)
+
+Notes
+Passwords are securely hashed with bcrypt
+
+JWT-based authentication (if implemented)
+
+Role-based authorization for protected routes
+
+Basic EJS frontend mainly for quick testing and debugging — frontend not fully implemented
+
 
